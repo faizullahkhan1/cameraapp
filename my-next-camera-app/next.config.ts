@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+
+const nextConfig = {
+  trailingSlash: false,
 };
+
+module.exports = nextConfig;
+
+
+
 
 export default nextConfig;
