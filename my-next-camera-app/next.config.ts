@@ -6,7 +6,12 @@ const nextConfig = {
   experimental: {},  // Remove `appDir` if it's inside this object
 };
 
-module.exports = nextConfig;
+module.exports = {
+  reactStrictMode: true,
+  experimental: {
+    appDir: true
+  }
+}
 
 
 
