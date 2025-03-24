@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 
 const nextConfig = {
-  experimental: { appDir: true },
-  output: "standalone",
+  reactStrictMode: true,
+  experimental: {},  // Remove `appDir` if it's inside this object
 };
 
 module.exports = nextConfig;
